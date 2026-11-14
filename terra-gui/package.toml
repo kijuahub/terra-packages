@@ -1,0 +1,6 @@
+[package]
+name = "terra-gui"
+package = "com.terra.ui"
+version = "0.2.0"
+description = "Desktop UI for Terra — windows, CSS, layouts (not a web framework)"
+hosts = ["com.terra.ui"]

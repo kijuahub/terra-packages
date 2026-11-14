@@ -1,0 +1,6 @@
+[package]
+name = "terra-notify"
+package = "com.terra.notify"
+version = "0.1.0"
+description = "Desktop toast notifications"
+hosts = ["com.terra.notify"]

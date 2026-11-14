@@ -1,0 +1,24 @@
+{
+  "packages": [
+    {
+      "name": "terra-gui",
+      "package": "com.terra.ui",
+      "aliases": ["com.terra.ui", "terra-gui", "ui"],
+      "repo": "kijuahub/terra-packages",
+      "path": "terra-gui",
+      "branch": "main",
+      "hosts": ["com.terra.ui"],
+      "description": "Desktop UI toolkit with CSS, windows, and layout primitives"
+    },
+    {
+      "name": "terra-notify",
+      "package": "com.terra.notify",
+      "aliases": ["com.terra.notify", "terra-notify", "notify"],
+      "repo": "kijuahub/terra-packages",
+      "path": "terra-notify",
+      "branch": "main",
+      "hosts": ["com.terra.notify"],
+      "description": "Desktop toast notifications for Terra apps"
+    }
+  ]
+}
