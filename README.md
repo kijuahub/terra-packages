@@ -2,10 +2,13 @@
 
 Official package registry for the [Terra](https://github.com/kijuahub/terra-lang) language.
 
-`ash
+```bash
 terra install terra-gui
 terra install -g terra-notify
 terra search ui
-`
+```
 
-Packages are installed into the current project's .terra/packages (venv-like) or globally with -g.
+- Project-local (like a venv): `.terra/packages/` next to `terra.toml`
+- Global: `%APPDATA%/terra/packages/` (`terra install -g`)
+
+Registry: `registry.json` on branch `main`.
